@@ -1,17 +1,7 @@
 import "./styles.css";
 //Made by Eero Peltola This is a test
 
-if (document.readyState !== "loading") {
-  // Document ready, executing
-  console.log("Document ready, executing");
-  initializeCode();
-} else {
-  document.addEventListener("DOMContentLoaded", function() {
-    // Document was not ready, executing when loaded
-    console.log("Document ready, executing after a wait");
-    initializeCode();
-  });
-}
+initializeCode();
 
 function initializeCode() {
   console.log("Initializing");
